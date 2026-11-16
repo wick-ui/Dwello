@@ -1,0 +1,753 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Dwello</title>
+        <link rel="stylesheet" href="dwello.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="header">
+                <div class="logo">
+                    <svg
+                        width="93"
+                        height="29"
+                        viewBox="0 0 93 29"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <g clip-path="url(#clip0_1_4)">
+                            <path
+                                d="M6.20173 27.5217V10.7217H14.1457C16.0017 10.7217 17.6337 11.0657 19.0417 11.7537C20.4497 12.4417 21.5457 13.4097 22.3297 14.6577C23.1297 15.9057 23.5297 17.3937 23.5297 19.1217C23.5297 20.8337 23.1297 22.3217 22.3297 23.5857C21.5457 24.8337 20.4497 25.8017 19.0417 26.4897C17.6337 27.1777 16.0017 27.5217 14.1457 27.5217H6.20173ZM10.9537 23.7297H13.9537C14.9137 23.7297 15.7457 23.5537 16.4497 23.2017C17.1697 22.8337 17.7297 22.3057 18.1297 21.6177C18.5297 20.9137 18.7297 20.0817 18.7297 19.1217C18.7297 18.1457 18.5297 17.3137 18.1297 16.6257C17.7297 15.9377 17.1697 15.4177 16.4497 15.0657C15.7457 14.6977 14.9137 14.5137 13.9537 14.5137H10.9537V23.7297ZM28.9099 27.5217L24.2779 14.5137H28.5979L32.2699 25.3857H30.2059L34.0219 14.5137H37.9099L41.5819 25.3857H39.5659L43.3579 14.5137H47.3659L42.7339 27.5217H38.3179L35.1979 18.5217H36.5419L33.3259 27.5217H28.9099ZM55.2236 27.7377C53.6876 27.7377 52.3436 27.4497 51.1916 26.8737C50.0556 26.2817 49.1676 25.4817 48.5276 24.4737C47.9036 23.4497 47.5916 22.2897 47.5916 20.9937C47.5916 19.6977 47.8956 18.5457 48.5036 17.5377C49.1276 16.5137 49.9836 15.7217 51.0716 15.1617C52.1596 14.5857 53.3836 14.2977 54.7436 14.2977C56.0236 14.2977 57.1916 14.5617 58.2476 15.0897C59.3036 15.6017 60.1436 16.3617 60.7676 17.3697C61.3916 18.3777 61.7036 19.6017 61.7036 21.0417C61.7036 21.2017 61.6956 21.3857 61.6796 21.5937C61.6636 21.8017 61.6476 21.9937 61.6316 22.1697H51.3356V19.7697H59.2076L57.4796 20.4417C57.4956 19.8497 57.3836 19.3377 57.1436 18.9057C56.9196 18.4737 56.5996 18.1377 56.1836 17.8977C55.7836 17.6577 55.3116 17.5377 54.7676 17.5377C54.2236 17.5377 53.7436 17.6577 53.3276 17.8977C52.9276 18.1377 52.6156 18.4817 52.3916 18.9297C52.1676 19.3617 52.0556 19.8737 52.0556 20.4657V21.1617C52.0556 21.8017 52.1836 22.3537 52.4396 22.8177C52.7116 23.2817 53.0956 23.6417 53.5916 23.8977C54.0876 24.1377 54.6796 24.2577 55.3676 24.2577C56.0076 24.2577 56.5516 24.1697 56.9996 23.9937C57.4636 23.8017 57.9196 23.5137 58.3676 23.1297L60.7676 25.6257C60.1436 26.3137 59.3756 26.8417 58.4636 27.2097C57.5516 27.5617 56.4716 27.7377 55.2236 27.7377ZM63.806 27.5217V9.71373H68.366V27.5217H63.806ZM71.3295 27.5217V9.71373H75.8895V27.5217H71.3295ZM85.3809 27.7377C83.9569 27.7377 82.6929 27.4497 81.5889 26.8737C80.4849 26.2977 79.6129 25.5057 78.9729 24.4977C78.3489 23.4737 78.0369 22.3057 78.0369 20.9937C78.0369 19.6817 78.3489 18.5217 78.9729 17.5137C79.6129 16.5057 80.4849 15.7217 81.5889 15.1617C82.6929 14.5857 83.9569 14.2977 85.3809 14.2977C86.8049 14.2977 88.0689 14.5857 89.1729 15.1617C90.2929 15.7217 91.1649 16.5057 91.7889 17.5137C92.4129 18.5217 92.7249 19.6817 92.7249 20.9937C92.7249 22.3057 92.4129 23.4737 91.7889 24.4977C91.1649 25.5057 90.2929 26.2977 89.1729 26.8737C88.0689 27.4497 86.8049 27.7377 85.3809 27.7377ZM85.3809 24.1137C85.9089 24.1137 86.3729 23.9937 86.7729 23.7537C87.1889 23.5137 87.5169 23.1617 87.7569 22.6977C87.9969 22.2177 88.1169 21.6497 88.1169 20.9937C88.1169 20.3377 87.9969 19.7857 87.7569 19.3377C87.5169 18.8737 87.1889 18.5217 86.7729 18.2817C86.3729 18.0417 85.9089 17.9217 85.3809 17.9217C84.8689 17.9217 84.4049 18.0417 83.9889 18.2817C83.5889 18.5217 83.2609 18.8737 83.0049 19.3377C82.7649 19.7857 82.6449 20.3377 82.6449 20.9937C82.6449 21.6497 82.7649 22.2177 83.0049 22.6977C83.2609 23.1617 83.5889 23.5137 83.9889 23.7537C84.4049 23.9937 84.8689 24.1137 85.3809 24.1137Z"
+                                fill="#2A1B12"
+                            />
+                            <path
+                                d="M1.89469 28.1235L1.89469 7.91301"
+                                stroke-width="3.78947"
+                                stroke="#2A1B12"
+                            />
+                            <path
+                                d="M0 6.01835H24"
+                                stroke-width="3.78947"
+                                stroke="#2A1B12"
+                            />
+                            <path
+                                d="M0 1.13031H14.6957"
+                                stroke-width="2.26087"
+                                stroke="#2A1B12"
+                            />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_1_4">
+                                <rect width="93" height="29" fill="white" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </div>
+                <div class="navigations">
+                    <nav>
+                        <a href="#" class="home">Home</a>
+                        <a href="#" class="service">Service</a>
+                        <a href="#" class="agent">Agent</a>
+                        <a href="#" class="contact">Contact</a>
+                    </nav>
+                </div>
+                <div class="search">
+                    <div class="srch">
+                        <svg
+                            width="22"
+                            height="22"
+                            viewBox="0 0 22 22"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                d="M21.56 19.4452L18.9149 16.7981C22.3906 12.1533 21.4429 5.57034 16.7981 2.09462C12.1533 -1.3811 5.57034 -0.433388 2.09462 4.21139C-1.3811 8.85616 -0.433388 15.4392 4.21139 18.9149C7.94245 21.7069 13.067 21.7069 16.7981 18.9149L19.4452 21.562C20.0292 22.146 20.976 22.146 21.56 21.562C22.144 20.978 22.144 20.0312 21.56 19.4472L21.56 19.4452ZM10.5435 18.0179C6.41542 18.0179 3.06901 14.6715 3.06901 10.5435C3.06901 6.41542 6.41542 3.06901 10.5435 3.06901C14.6715 3.06901 18.0179 6.41542 18.0179 10.5435C18.0135 14.6697 14.6697 18.0136 10.5435 18.0179Z"
+                                fill="#2B1B12"
+                            />
+                        </svg>
+                    </div>
+                    <div class="user">
+                        <svg
+                            width="15"
+                            height="22"
+                            viewBox="0 0 15 22"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                d="M6.83145 12.8502C2.92498 13.2033 -0.0511941 16.5042 0.000667504 20.4262V20.6251C0.000667504 21.3844 0.616261 22 1.37562 22C2.13499 22 2.75058 21.3844 2.75058 20.6251V20.3712C2.70924 17.9631 4.48637 15.9095 6.87545 15.6047C9.39733 15.3546 11.6445 17.1963 11.8946 19.7182C11.9093 19.8673 11.9168 20.017 11.9169 20.1668V20.6251C11.9169 21.3844 12.5325 22 13.2919 22C14.0513 22 14.6669 21.3844 14.6669 20.6251V20.1667C14.6624 16.1122 11.3719 12.829 7.31741 12.8335C7.15529 12.8337 6.99322 12.8392 6.83145 12.8502Z"
+                                fill="#2B1B12"
+                            />
+                            <path
+                                d="M7.33383 10.9996C10.3713 10.9996 12.8336 8.53727 12.8336 5.49982C12.8336 2.46237 10.3713 0 7.33383 0C4.29638 0 1.834 2.46237 1.834 5.49982C1.83701 8.53603 4.29762 10.9966 7.33383 10.9996ZM7.33383 2.74991C8.85255 2.74991 10.0837 3.9811 10.0837 5.49982C10.0837 7.01855 8.85255 8.24973 7.33383 8.24973C5.8151 8.24973 4.58391 7.01855 4.58391 5.49982C4.58391 3.9811 5.8151 2.74991 7.33383 2.74991Z"
+                                fill="#2B1B12"
+                            />
+                        </svg>
+                    </div>
+
+                    <button class="signup">Sign up</button>
+                </div>
+            </div>
+
+            <div class="hero">
+                <div class="h-content">
+                   <h1>Find Your <br> <span class="dream">Dream Home</span></h1>
+                    <p>
+                        Explore our curated selection of exquisite <br />
+                        properties meticulously tailored to your <br />
+                        unique dream home vision
+                    </p>
+                    <button class="signup s-g" >Sign up</button>
+                </div>
+
+                <div h-image>
+                    <img src="heroimage1.png" alt="Luxury villa" />
+                </div>
+            </div>
+
+           
+        </header>
+        <main>
+             <div class="location-filter">
+                <form action="" class="location-form">
+                <div class="filter">
+
+                 <select name="location">
+                <option value="">Location</option>
+                <option value="lagos">Lagos</option>
+                <option value="abuja">Abuja</option>
+            </select>
+                        <svg
+                            width="22"
+                            height="22"
+                            viewBox="0 0 22 22"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                d="M11.3 2C7.40667 2 4 6 4 9C4 12.1414 4.95261 13.6517 6.13237 14.9283C6.50757 15.3343 6.88089 15.7681 7.26057 16.2093C7.77721 16.8096 8.30564 17.4236 8.86667 18C8.91173 18.0463 8.95783 18.0942 9.00502 18.1433C9.57938 18.7407 10.3154 19.5062 11.3 19.5C12.2846 19.5062 13.0206 18.7407 13.595 18.1433C13.6422 18.0942 13.6883 18.0463 13.7333 18C14.2944 17.4236 14.8228 16.8096 15.3394 16.2093C15.7191 15.7681 16.0924 15.3343 16.4676 14.9283C17.6474 13.6517 18.6 12.1414 18.6 9C18.6 6 15.1933 2 11.3 2ZM11.2 11.4C12.415 11.4 13.4 10.415 13.4 9.2C13.4 7.98497 12.415 7 11.2 7C9.98497 7 9 7.98497 9 9.2C9 10.415 9.98497 11.4 11.2 11.4Z"
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                fill="#695346"
+                            />
+                        </svg>
+                </div>
+                <div class="filter">
+
+                   <select name="type">
+                <option value="">Type</option>
+                <option value="apartment">Apartment</option>
+                <option value="duplex">Duplex</option>
+                <option value="bungalow">Bungalow</option>
+            </select>
+
+                        <svg
+                            width="22"
+                            height="22"
+                            viewBox="0 0 22 22"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                d="M11 12.3332C10.4696 12.3332 9.96086 12.5439 9.58579 12.919C9.21071 13.294 9 13.8027 9 14.3332V19.0172H13V14.3332C13 13.8027 12.7893 13.294 12.4142 12.919C12.0391 12.5439 11.5304 12.3332 11 12.3332Z"
+                                fill="#695346"
+                            />
+                            <path
+                                d="M11.892 3.55545C11.6472 3.33508 11.3294 3.21313 11 3.21313C10.6706 3.21313 10.3528 3.33508 10.108 3.55545L3.66206 9.35692C3.24064 9.73621 3 10.2765 3 10.8435V16.8861C3 17.4519 3.22476 17.9945 3.62484 18.3946C4.02492 18.7947 4.56754 19.0195 5.13333 19.0195H7.66667V14.3335C7.66667 13.4494 8.01786 12.6016 8.64298 11.9764C9.2681 11.3513 10.1159 11.0001 11 11.0001C11.8841 11.0001 12.7319 11.3513 13.357 11.9764C13.9821 12.6016 14.3333 13.4494 14.3333 14.3335V19.0175H16.8667C17.4325 19.0175 17.9751 18.7927 18.3752 18.3926C18.7752 17.9925 19 17.4499 19 16.8841V10.8417C19 10.2746 18.7593 9.73419 18.3377 9.3549L11.892 3.55545Z"
+                                fill="#695346"
+                            />
+                        </svg>
+                    
+                </div>
+
+                <div class="filter">
+                      <select name="price">
+                <option value="">Price Range</option>
+                <option value="low">Below ₦50 million</option>
+                <option value="medium">₦50m - ₦100m</option>
+                <option value="high">Above ₦100 million</option>
+            </select>
+                        <svg
+                            width="22"
+                            height="22"
+                            viewBox="0 0 22 22"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                d="M12.7 19.4C12.5636 19.4 12.5544 19.2031 12.6872 19.172C16.5345 18.2731 19.3999 14.8212 19.3999 10.7C19.3999 6.5788 16.5345 3.12694 12.6872 2.22801C12.5544 2.19698 12.5636 2 12.7 2C17.5049 2 21.3999 5.89511 21.3999 10.7C21.3999 15.5049 17.5049 19.4 12.7 19.4Z"
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                fill="#695346"
+                            />
+                            <path
+                                d="M8.7 19.4C13.5049 19.4 17.4 15.5049 17.4 10.7C17.4 5.89512 13.5049 2 8.7 2C3.89512 2 0 5.89512 0 10.7C0 15.5049 3.89512 19.4 8.7 19.4ZM9.68615 4.47692C9.68615 4.21353 9.47263 4 9.20923 4C8.94583 4 8.73231 4.21353 8.73231 4.47692V5.48825C8.34428 5.53257 7.99351 5.64059 7.68 5.81231C7.25744 6.03914 6.92718 6.36318 6.68923 6.78443C6.45538 7.20105 6.33846 7.69406 6.33846 8.26344C6.33846 8.85597 6.44718 9.34666 6.66462 9.73551C6.88615 10.1244 7.1959 10.4507 7.59385 10.7146C7.9918 10.9738 8.45538 11.2122 8.98462 11.4298C9.32513 11.5686 9.5959 11.7145 9.79692 11.8672C10.0021 12.02 10.1477 12.1936 10.2338 12.388C10.3241 12.5824 10.3692 12.8116 10.3692 13.0754C10.3692 13.3347 10.32 13.5661 10.2215 13.7698C10.1272 13.9689 9.98359 14.1239 9.79077 14.235C9.60205 14.3461 9.3641 14.4017 9.07692 14.4017C8.90051 14.4017 8.72615 14.3739 8.55385 14.3184C8.38154 14.2628 8.22564 14.1679 8.08615 14.0337C7.94667 13.8948 7.8359 13.7096 7.75385 13.4782C7.72387 13.3936 7.69937 13.301 7.68034 13.2004C7.61878 12.8748 7.36214 12.6033 7.03077 12.6033H6.6C6.26863 12.6033 5.99477 12.8728 6.03153 13.2021C6.07141 13.5594 6.1491 13.8759 6.26462 14.1517C6.44103 14.5683 6.67692 14.9039 6.97231 15.1585C7.27179 15.4085 7.6041 15.5891 7.96923 15.7002C8.18523 15.7659 8.40267 15.8122 8.62154 15.839V16.7262C8.62154 16.9879 8.83369 17.2 9.09538 17.2C9.35708 17.2 9.56923 16.9879 9.56923 16.7262V15.8389C9.95186 15.7939 10.2985 15.6944 10.6092 15.5405C11.0482 15.3229 11.3887 15.0058 11.6308 14.5892C11.8769 14.1725 12 13.6633 12 13.0615C12 12.4736 11.8913 11.9876 11.6738 11.6034C11.4564 11.2191 11.1508 10.8951 10.7569 10.6312C10.3631 10.3628 9.89949 10.1174 9.36615 9.89521C9.00923 9.73782 8.7282 9.58275 8.52308 9.42998C8.32205 9.27722 8.17846 9.10826 8.09231 8.92309C8.01026 8.7333 7.96923 8.51341 7.96923 8.26344C7.96923 8.00421 8.00821 7.77507 8.08615 7.57601C8.16821 7.37696 8.29538 7.21957 8.46769 7.10384C8.6441 6.98811 8.86769 6.93025 9.13846 6.93025C9.32718 6.93025 9.49538 6.96959 9.64308 7.04829C9.79487 7.12699 9.9241 7.24503 10.0308 7.40242C10.1374 7.55518 10.2195 7.74266 10.2769 7.96486C10.2908 8.01852 10.303 8.07408 10.3135 8.13152C10.3732 8.45747 10.6317 8.72867 10.9631 8.72867H11.3877C11.7191 8.72867 11.9928 8.45907 11.9547 8.12989C11.9221 7.84827 11.8654 7.58726 11.7846 7.34687C11.6533 6.93951 11.4626 6.59695 11.2123 6.3192C10.9662 6.04145 10.6687 5.83083 10.32 5.68732C10.1234 5.60282 9.91212 5.54241 9.68615 5.50612V4.47692Z"
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                fill="#695346"
+                            />
+                        </svg>
+                    
+                </div>
+                
+                    <button class="sup">Sign up</button>
+                
+            </div>
+            </form>
+
+            <div class="mask">
+                <div class="msk">
+                    <img src="mask1.png" alt="A Duplex" class="msk-img">
+                </div>
+
+                <div class="mask2-container">
+
+                <div class="mask2">
+                    <h2 class="m-h2">We Help You To Find <br> Your Dream Home</h2>
+
+                    <p class="m-p">From cozy cottages to luxurious estates, our <br>
+                         dedicated team guides you through every step of the <br>
+                         journey, ensuring your dream home becomes a reality</p>
+                </div>
+
+                 <div class="fig-container">
+                <div class="figures">
+                    <svg width="90" height="35" viewBox="0 0 90 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M14.112 34.752C11.296 34.752 8.832 34.336 6.72 33.504C4.608 32.64 2.96 31.44 1.776 29.904C0.592 28.336 -2.38419e-07 26.512 -2.38419e-07 24.432C-2.38419e-07 22.352 0.576 20.592 1.728 19.152C2.912 17.68 4.56 16.576 6.672 15.84C8.784 15.072 11.264 14.688 14.112 14.688C16.992 14.688 19.488 15.072 21.6 15.84C23.744 16.576 25.392 17.68 26.544 19.152C27.728 20.592 28.32 22.352 28.32 24.432C28.32 26.512 27.728 28.336 26.544 29.904C25.36 31.44 23.696 32.64 21.552 33.504C19.44 34.336 16.96 34.752 14.112 34.752ZM14.112 29.04C16.064 29.04 17.6 28.608 18.72 27.744C19.872 26.88 20.448 25.696 20.448 24.192C20.448 22.688 19.872 21.52 18.72 20.688C17.6 19.824 16.064 19.392 14.112 19.392C12.192 19.392 10.672 19.824 9.552 20.688C8.432 21.52 7.872 22.688 7.872 24.192C7.872 25.696 8.432 26.88 9.552 27.744C10.672 28.608 12.192 29.04 14.112 29.04ZM14.112 18.624C11.52 18.624 9.248 18.272 7.296 17.568C5.376 16.864 3.872 15.84 2.784 14.496C1.728 13.12 1.2 11.488 1.2 9.60003C1.2 7.61602 1.744 5.92002 2.832 4.51202C3.92 3.07202 5.44 1.96802 7.392 1.20002C9.344 0.400024 11.584 2.47955e-05 14.112 2.47955e-05C16.704 2.47955e-05 18.96 0.400024 20.88 1.20002C22.832 1.96802 24.352 3.07202 25.44 4.51202C26.56 5.92002 27.12 7.61602 27.12 9.60003C27.12 11.488 26.576 13.12 25.488 14.496C24.432 15.84 22.928 16.864 20.976 17.568C19.024 18.272 16.736 18.624 14.112 18.624ZM14.112 14.064C15.744 14.064 17.024 13.696 17.952 12.96C18.912 12.224 19.392 11.216 19.392 9.93603C19.392 8.59202 18.896 7.55202 17.904 6.81602C16.944 6.08002 15.68 5.71202 14.112 5.71202C12.576 5.71202 11.328 6.08002 10.368 6.81602C9.408 7.55202 8.928 8.59202 8.928 9.93603C8.928 11.216 9.392 12.224 10.32 12.96C11.248 13.696 12.512 14.064 14.112 14.064ZM40.9515 26.496L40.5195 17.52L56.5995 0.576023H65.2395L50.7435 16.176L46.4235 20.784L40.9515 26.496ZM33.9915 34.176V0.576023H41.7195V34.176H33.9915ZM56.9835 34.176L45.0315 19.536L50.1195 14.016L66.0555 34.176H56.9835ZM75.0375 28.464V6.28802H81.2295V28.464H75.0375ZM66.7335 20.304V14.448H89.5815V20.304H66.7335Z" fill="#4F3527"/>
+</svg>
+
+          <p class="fp-1">Houses Available</p>
+                </div>
+                <div class="figures-2">
+                    <svg width="89" height="35" viewBox="0 0 89 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M15.024 34.752C11.952 34.752 9.27999 34.112 7.00799 32.832C4.76799 31.552 3.03999 29.68 1.82399 27.216C0.607991 24.752 -9.29832e-06 21.712 -9.29832e-06 18.096C-9.29832e-06 14.224 0.719991 10.944 2.15999 8.25602C3.63199 5.56802 5.64799 3.52002 8.20799 2.11202C10.8 0.704024 13.776 2.47955e-05 17.136 2.47955e-05C18.928 2.47955e-05 20.64 0.192024 22.272 0.576023C23.904 0.960024 25.312 1.53602 26.496 2.30402L23.616 8.01603C22.688 7.37603 21.696 6.94403 20.64 6.72002C19.584 6.46402 18.48 6.33602 17.328 6.33602C14.416 6.33602 12.112 7.21602 10.416 8.97602C8.71999 10.736 7.87199 13.344 7.87199 16.8C7.87199 17.376 7.87199 18.016 7.87199 18.72C7.90399 19.424 7.99999 20.128 8.15999 20.832L5.99999 18.816C6.60799 17.568 7.39199 16.528 8.35199 15.696C9.31199 14.832 10.448 14.192 11.76 13.776C13.104 13.328 14.576 13.104 16.176 13.104C18.352 13.104 20.304 13.536 22.032 14.4C23.76 15.264 25.136 16.48 26.16 18.048C27.216 19.616 27.744 21.456 27.744 23.568C27.744 25.84 27.168 27.824 26.016 29.52C24.896 31.184 23.376 32.48 21.456 33.408C19.568 34.304 17.424 34.752 15.024 34.752ZM14.592 28.944C15.68 28.944 16.64 28.752 17.472 28.368C18.336 27.952 19.008 27.36 19.488 26.592C19.968 25.824 20.208 24.944 20.208 23.952C20.208 22.416 19.68 21.2 18.624 20.304C17.6 19.376 16.224 18.912 14.496 18.912C13.344 18.912 12.336 19.136 11.472 19.584C10.608 20 9.91999 20.592 9.40799 21.36C8.92799 22.096 8.68799 22.96 8.68799 23.952C8.68799 24.912 8.92799 25.776 9.40799 26.544C9.88799 27.28 10.56 27.872 11.424 28.32C12.288 28.736 13.344 28.944 14.592 28.944ZM39.6345 26.496L39.2025 17.52L55.2825 0.576023H63.9225L49.4265 16.176L45.1065 20.784L39.6345 26.496ZM32.6745 34.176V0.576023H40.4025V34.176H32.6745ZM55.6665 34.176L43.7145 19.536L48.8025 14.016L64.7385 34.176H55.6665ZM73.7205 28.464V6.28802H79.9125V28.464H73.7205ZM65.4165 20.304V14.448H88.2645V20.304H65.4165Z" fill="#4F3527"/>
+</svg>
+
+              <p class="fp-1">Houses Sold</p>
+
+                </div>
+
+                <div class="figures-3">
+                    <svg width="88" height="35" viewBox="0 0 88 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.536 34.176V29.136L14.496 16.896C15.52 15.968 16.272 15.136 16.752 14.4C17.232 13.664 17.552 12.992 17.712 12.384C17.904 11.776 18 11.216 18 10.704C18 9.36002 17.536 8.33603 16.608 7.63202C15.712 6.89602 14.384 6.52802 12.624 6.52802C11.216 6.52802 9.904 6.80002 8.688 7.34402C7.504 7.88802 6.496 8.73602 5.664 9.88802L-4.14997e-06 6.24002C1.28 4.32002 3.072 2.80002 5.376 1.68002C7.68 0.560024 10.336 2.47955e-05 13.344 2.47955e-05C15.84 2.47955e-05 18.016 0.416024 19.872 1.24802C21.76 2.04802 23.216 3.18402 24.24 4.65602C25.296 6.12803 25.824 7.88803 25.824 9.93603C25.824 11.024 25.68 12.112 25.392 13.2C25.136 14.256 24.592 15.376 23.76 16.56C22.96 17.744 21.776 19.072 20.208 20.544L9.456 30.672L7.968 27.84H26.928V34.176H1.536ZM39.2085 26.496L38.7765 17.52L54.8565 0.576023H63.4965L49.0005 16.176L44.6805 20.784L39.2085 26.496ZM32.2485 34.176V0.576023H39.9765V34.176H32.2485ZM55.2405 34.176L43.2885 19.536L48.3765 14.016L64.3125 34.176H55.2405ZM73.2945 28.464V6.28802H79.4865V28.464H73.2945ZM64.9905 20.304V14.448H87.8385V20.304H64.9905Z" fill="#4F3527"/>
+</svg>
+
+           <p class="fp-1">Trusted Agents</p>
+                </div>
+                </div>
+                </div>
+            </div>
+
+              <div class="why">
+                <h2 class="why1">Why Choose Us</h2>
+                <p class="whyp">Elevating Your Home Buying Experience with Expertise, Integrity, <br>
+                     and Unmatched Personalized Service</p>
+                     <div class="tabs">
+                         <div class="tab">
+                             <svg class="svgs" width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                             <path d="M52 0H0V52H52V0Z" fill="url(#pattern0_1_76)"/>
+                            <defs>
+                             <pattern id="pattern0_1_76" patternContentUnits="objectBoundingBox" width="1" height="1">
+                             <use xlink:href="#image0_1_76" transform="scale(0.0104167)"/>
+                              </pattern>
+                             <image id="image0_1_76" width="96" height="96" preserveAspectRatio="none" xlink:href="data:image/png;base64,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"/>
+                             </defs>
+                             </svg>
+         
+                             <h3>Expert Guidance</h3>
+                             <p class="tab-p">
+                                 Benefit from our team's <br>
+                                  seasoned expertise for a <br>
+                                  smooth buying experience
+                             </p>
+                    
+                         </div>
+                         <div class="tab">
+                             <svg class="svgs" width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                             <mask id="mask0_1_82" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="52" height="52">
+                             <path d="M52 0H0V52H52V0Z" fill="white"/>
+                             </mask>
+                             <g mask="url(#mask0_1_82)">
+                             <path d="M52 -2H-2V52H52V-2Z" fill="url(#pattern0_1_82)"/>
+                             </g>
+                             <defs>
+                             <pattern id="pattern0_1_82" patternContentUnits="objectBoundingBox" width="1" height="1">
+                             <use xlink:href="#image0_1_82" transform="scale(0.0104167)"/>
+                             </pattern>
+                             <image id="image0_1_82" width="96" height="96" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAAsTAAALEwEAmpwYAAAE0ElEQVR4nO2c22tcVRSHt/VSL7GTtSaTOGudNFiHNrPWpF6iqMUb+C8kpUV89sEnQRD0wVJv/Qustr6J4AV8EnzzgtRLEURFX6QPEQRtsdQmxTSglT2dtGmTmJMzZ84+l/XBhtAOyTnfb5+19z5nn3HOMAzDMAzDMAzDMAzDMHLGrnr9VmnCfiE8KgTHhfGkEC51G+NJJfhGCY8owT7/2dDHWxomt480hfGwMJxTxgtxmv9sN6io0Qp9/IXlgSi6SRkOCsNCXPGrgiBcUsJDrZbbGvp8CoVEjZYQ/pBU/OorAo91RkfHQp9XIRCq3SUMf6Qlf0UIv05G0Al9fvnv+Zy+/BVtzq6EdZiYmLhRGb8boPzlK+FLGxPWQBkODlr+pUb42kAv5WJONWEhwwDO6/i2O0Kfd24QxsOZyb8cwpHQ550LWojbNrPISm8sgAVpNIZc1ZEm7M+89/dam2CvqzpCeDRUAEr4pqs6QnA8XADwlas6yngqVAB+0eeqjvopYbgStOiqjloAgQNgK0FBERuEw6L+MWK4MeANV3WUYF+4WRDOuqojjcaQMswHmILarYigq2FbBV+m9wx4KUP5i7vHarevOARDCQ9lVn4IXjHjVzE97a5Xws8HX/vxmD2SXIfO6OiY370wwADsofxGTEbQGVAIc+1xUCs9MdjZHBoRws/SLDu2HWWTtFpuq9+90NfNOsLzfsAVcTdYz0/I1PbaDn+7YnO7JmDez/NtqpnyirlNsNffv1GCr7s76PzV4Xt592f/b34XNc7uHhu7xXq8YRiGYRiGYRiGYRiGYcRkansN2oz3K9efFIaXhfE9IfhUGL4VwhPdLY2Ei771vjfixMX/g0+6n2V4SaLhJzSq3ze9A2omfoNXVNvN4YeV8AUl/HgQ+0WF4Xch/EgYnlOCPZV+RjDr3LXtaPgRJXhVGb/o9uQBP4xfI5Bz/mpRhgMdggedc1tcydnSpvrjwvBW9+tlMhauGz49g9+E8XVpwkPOuWtcWbgzQu69hD0XXDLHDuMXZXy+37FDGJ8RwtNK+GNnvH6vy5I21e5Wwncy3fHGaTf4abrZvDnJ+fvSdkXJIzzjJxUumy/cwHeV8d/wArHv5mdS/crPJAS/i6E7XSx0j8fV0hieSkP+QEOYbI7cIww/h5alacsnPC0TjdviehDGmZi/N70Q/E6FEF81oANvMN+bEcXmUeeu65XfWCH0PTAL1Z8uS63XPuUnCcHPjpLL98t8xn+qLl8YZ7z0RCEQ/plI/iSN7FSCv6suX3sDrpedJAS/TkgUQBb7+LUg8lfI3GQIcCChfNgTXham2i7uO60/llT+pUbwwdUh+PteQvj2FX+P8MVE8oO/18v56/mrw9zoSkjY85cRwu/DS8Ncyo8Rwkxf8nsBnAkvDvNTdtZra5SjVAgtTosgf5AhhJanOS0764edQtkpSwCSVc9PY7ZTtgCkDPKLGoCURX4RA5Ayye8d4NnQUjWnA27fi6w4CMGH4cViNeV7pqi+y99GDS8Y/6/NTTVHpksnf5kpxkgZ31eGv3Ig+0JPwln/rrASPLuZ94QLJ79MaN4H3DKjJt/kVxK1nh86ALSaX8QAxAbcdDD5gVHr+cUJQKzspI/JD4xaz893AJJx2fkP4eWD9q+9dPkAAAAASUVORK5CYII="/>
+                             </defs>
+                              </svg>
+         
+                              <h3>Personalized Service</h3>
+         
+                              <p class="tab-p">Our services adapt to your <br> 
+                                 unique needs, making your <br>
+                                  journey stress-free</p>
+         
+                         </div>
+                         <div class="tab">
+         
+                             <svg class="svgs" width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                   <g clip-path="url(#clip0_1_91)">
+                                      <mask id="mask0_1_91" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="52" height="52">
+                                    <path d="M52 0H0V52H52V0Z" fill="white"/>
+                                        </mask>
+                                      <g mask="url(#mask0_1_91)">
+                                     <path d="M55 -1H-3V57H55V-1Z" fill="url(#pattern0_1_91)"/>
+                                    </g>
+                                        </g>
+                                     <defs>
+                                  <pattern id="pattern0_1_91" patternContentUnits="objectBoundingBox" width="1" height="1">
+                               <use xlink:href="#image0_1_91" transform="scale(0.0104167)"/>
+                                </pattern>
+                                <clipPath id="clip0_1_91">
+                               <rect width="52" height="52" fill="white"/>
+                                </clipPath>
+                              <image id="image0_1_91" width="96" height="96" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAAsTAAALEwEAmpwYAAADfUlEQVR4nO1d3WpTQRA+V/Wm1s6kf9lJK0ixdSdRwdewiBQfQfAB9DEsWqrinfgMojfqS6hQvGzvRFDbKiKWyCYtFEmsek529my/D+YmhHa+79uZ2ZzknC0KAAAAAKgBluYbTh3d8Y6feeEtL/S1H7wVXlNHt5cXpprWeWaH5YWppnf01Dv+ocLdP0X/PfTEn52es847C1xoNq55x5+PE36AEZ/UTa5Y519rtB3dUuH9fxX/SOx7oZvWPGoJdZMrXvhnCfH7lRD+hpu8as2nVjjfHJ/ywh/Kin8kPl6cnZ2x5lUbqOPHFYp/WAmPrHnVApfnxqe9o29VG6COv7dnZmaL3NBpUcc7uq+O33qhvcqFk4GreUuFV5cajdMh2i2+7oU24/xv2utxdXRvuUVtM+EXF4tTXvhhyV1K93/E960J/j2f8Jp3tB0zl/4uix94X4zFF9/R68hkuwexOiwvL3zDJCdHr6KaEAaakfjd0HKG5bXIPGGVlwptROv5sduO/qUBV87RGau8wueNC/OkIzcgDB+7VcbdMHCH5Rbak2Vu6mht5Aao0DtLkl5oc9gQVkfvbQ3gNzEM2DElKeFCG22HgRt6/kHfXzUXvxe0E8EAa5KcdMAAgQHmq1BRAfZCKFqQvRhqEJgBAgPMV6GiAuyFULSgwSKE3+9carEUiaEj3FLHz7OfAYFokSjU0Xz2BhSJQ1Pnl3yCufNLPsHc+SWfYO78yiaIIWxsQNjqpWiChh2Q4xfZV0DuUcAAhgHWq1BRAfZCKFqQvRhqEJgBAgPMV6GiAuyFULSgtL4P6FR0vb/2M8DyU7BWcL2/9gaMPMFjAAOMoagAGFAKaEFc7xmAIXxCvw/Qiq73m28yRk1Aax4wQGCA+SpUVIC9EIoWZC+GGgRmgMAA81WoqAB7IRQtaLAIuD+gJMqurBR/FXcI3B+QALLfBRWJQ1Pnl3yCufNLPsHc+WEIc70NwP0B1gZkHsWoYU1QEw8YIDDAfBUqKsBeCEULshdDDQIzQGCA+SrUvCuAdq1JarJBX7J/dLGmHDEeXWz98G5NO+6O3IBwbEcVx0vlFj7W4+sDwrEd1oQ1tXC0HkX8ngG+GAvHdpiTllSCXkY/R6ZngtDGSW5HvndKH61HF/8oQt8LJ0eEHcDJ2KLSbo+ro7VoPR8AAAAAAAAAAAAAAAAocsAviuK+BCN3TWYAAAAASUVORK5CYII="/>
+                                  </defs>
+                                 </svg>
+         
+                                 <h3>Transparent Process</h3>
+         
+                                   <p class="tab-p">Stay informed with our <br>
+                                     clear and honest approach <br>
+                                      to buying your home</p>
+         
+                         </div>
+                         <div class="tab">
+         
+                             <svg class="svgs" width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                           <g clip-path="url(#clip0_1_101)">
+                         <mask id="mask0_1_101" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="52" height="52">
+                           <path d="M52 0H0V52H52V0Z" fill="white"/>
+                          </mask>
+                        <g mask="url(#mask0_1_101)">
+                           <path d="M62.8846 23.9191L24 -10L-9.91915 28.8846L28.9654 62.8037L62.8846 23.9191Z" fill="url(#pattern0_1_101)"/>
+                         </g>
+                          </g>
+                           <defs>
+                         <pattern id="pattern0_1_101" patternContentUnits="objectBoundingBox" width="1" height="1">
+                             <use xlink:href="#image0_1_101" transform="scale(0.0104167)"/>
+                           </pattern>
+                         <clipPath id="clip0_1_101">
+                          <rect width="52" height="52" fill="white"/>
+                             </clipPath>
+                          <image id="image0_1_101" width="96" height="96" preserveAspectRatio="none" xlink:href="data:image/png;base64,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"/>
+                             </defs>
+                            </svg>
+         
+                            <h3>Exceptional Support</h3>
+         
+                            <p class="tab-p">Providing peace of mind <br>
+                              with our responsive and <br>
+                               attentive customer service</p>
+         
+                         </div>
+         
+                     </div>
+            </div>
+
+
+            
+ 
+
+  <section class="residences-section">
+    <h2 class="section-title">Our Popular Residences</h2>
+
+    <div class="residences-grid">
+      
+      <!-- Card 1 -->
+      <article class="residence-card">
+        <div class="card-image">
+          <img src="Group 11.png" alt="Modern villa in San Francisco">
+        </div>
+        <div class="card-content">
+          <div class="location">
+            <svg class="pin-icon" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 0 1 0-5 2.5 2.5 0 0 1 0 5z"/>
+            </svg>
+            <span>San Francisco, California</span>
+          </div>
+
+          <div class="specs">
+            <div class="spec-item">
+              <span class="spec-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M3 10v11h18V10M3 10l9-7 9 7M9 21v-6h6v6"/>
+                </svg>
+              </span>
+              <span>4 Rooms</span>
+            </div>
+
+            <div class="spec-item">
+              <span class="spec-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 4h6v6H4zM14 4h6v6h-6zM4 14h6v6H4zM14 14h6v6h-6z"/>
+                </svg>
+              </span>
+              <span>3,500 sq ft</span>
+            </div>
+          </div>
+
+          <div class="card-footer">
+            <button class="signup-btn">Sign up</button>
+            <span class="price">$2,500,000</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Card 2 -->
+      <article class="residence-card">
+        <div class="card-image">
+          <img src="Mask group (1).png" alt="Modern villa in Beverly Hills">
+        </div>
+        <div class="card-content">
+          <div class="location">
+            <svg class="pin-icon" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 0 1 0-5 2.5 2.5 0 0 1 0 5z"/>
+            </svg>
+            <span>Beverly Hills, California</span>
+          </div>
+
+          <div class="specs">
+            <div class="spec-item">
+              <span class="spec-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M3 10v11h18V10M3 10l9-7 9 7M9 21v-6h6v6"/>
+                </svg>
+              </span>
+              <span>3 Rooms</span>
+            </div>
+
+            <div class="spec-item">
+              <span class="spec-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 4h6v6H4zM14 4h6v6h-6zM4 14h6v6H4zM14 14h6v6h-6z"/>
+                </svg>
+              </span>
+              <span>1,500 sq ft</span>
+            </div>
+          </div>
+
+          <div class="card-footer">
+            <button class="signup-btn">Sign up</button>
+            <span class="price">$850,000</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Card 3 -->
+      <article class="residence-card palo-alto" >
+        <div class="card-image">
+          <img src="Mask group (2).png" alt="Modern villa in Palo Alto">
+        </div>
+        <div class="card-content">
+          <div class="location">
+            <svg class="pin-icon" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 0 1 0-5 2.5 2.5 0 0 1 0 5z"/>
+            </svg>
+            <span>Palo Alto, California</span>
+          </div>
+
+          <div class="specs">
+            <div class="spec-item">
+              <span class="spec-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M3 10v11h18V10M3 10l9-7 9 7M9 21v-6h6v6"/>
+                </svg>
+              </span>
+              <span>6 Rooms</span>
+            </div>
+
+            <div class="spec-item">
+              <span class="spec-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 4h6v6H4zM14 4h6v6h-6zM4 14h6v6H4zM14 14h6v6h-6z"/>
+                </svg>
+              </span>
+              <span>4,000 sq ft</span>
+            </div>
+          </div>
+
+          <div class="card-footer">
+            <button class="signup-btn">Sign up</button>
+            <span class="price">$3,700,000</span>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+
+      <section class="testimonials-section">
+    <div class="container">
+      <h2 class="section-heading">What People Say<br>About Dwello</h2>
+
+      <div class="testimonials-grid">
+        
+        <!-- Card 1 -->
+        <article class="testimonial-card">
+          <div class="room-image">
+            <img src="Group 15.png" alt="Luxury bedroom interior">
+          </div>
+          <div class="testimonial-body">
+            <div class="reviewer-header">
+              <div class="reviewer-profile">
+                <img class="avatar" src="Mask group (3).png" alt="Sarah Nguyen">
+                <div class="reviewer-info">
+                  <h3>Sarah Nguyen</h3>
+                  <span>San Francisco</span>
+                </div>
+              </div>
+              <div class="rating-badge">
+                <svg class="star-icon" viewBox="0 0 24 24" fill="#FACC15">
+                  <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                </svg>
+                <span>5.0</span>
+              </div>
+            </div>
+            
+            <p class="review-text">
+              Dwello truly cares about their clients. They listened to my needs and preferences and helped me find the perfect home in the Bay Area. Their professionalism and attention to detail are unmatched.
+            </p>
+          </div>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="testimonial-card">
+          <div class="room-image">
+            <img src="Group 15 (1).png" alt="Modern living room and staircase">
+          </div>
+          <div class="testimonial-body">
+            <div class="reviewer-header">
+              <div class="reviewer-profile">
+                <img class="avatar" src="Mask group (4).png" alt="Michael Rodriguez">
+                <div class="reviewer-info">
+                  <h3>Michael Rodriguez</h3>
+                  <span>San Diego</span>
+                </div>
+              </div>
+              <div class="rating-badge">
+                <svg class="star-icon" viewBox="0 0 24 24" fill="#FACC15">
+                  <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                </svg>
+                <span>4.5</span>
+              </div>
+            </div>
+            <p class="review-text">
+              I had a fantastic experience working with Dwello. Their expertise and personalized service exceeded my expectations. I found my dream home quickly and smoothly. Highly recommended!
+            </p>
+          </div>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="testimonial-card">
+          <div class="room-image">
+            <img src="Group 15 (2).png" alt="Cozy modern bedroom">
+          </div>
+          <div class="testimonial-body">
+            <div class="reviewer-header">
+              <div class="reviewer-profile">
+                <img class="avatar" src="Mask group (5).png" alt="Emily Johnson">
+                <div class="reviewer-info">
+                  <h3>Emily Johnson</h3>
+                  <span>Los Angeles</span>
+                </div>
+              </div>
+              <div class="rating-badge">
+                <svg class="star-icon" viewBox="0 0 24 24" fill="#FACC15">
+                  <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                </svg>
+                <span>5.0</span>
+              </div>
+            </div>
+            <p class="review-text">
+              Dwello made my dream of owning a home a reality! Their team provided exceptional support and guided me through every step of the process. I couldn't be happier with my new home!
+            </p>
+          </div>
+        </article>
+
+      </div>
+
+      <!-- Slider Controls -->
+      <div class="slider-controls">
+        <button class="nav-btn" aria-label="Previous testimonial">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="15 18 9 12 15 6"></polyline>
+          </svg>
+        </button>
+        <button class="nav-btn" aria-label="Next testimonial">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </section>
+
+   <section class="help-section">
+    <div class="help-container">
+      <h2 class="help-heading">Do You Have Any Questions?<br>Get Help From Us</h2>
+
+      <div class="help-options">
+        <a href="#chat" class="option-item">
+          <svg class="verified-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z"/>
+            <path d="m9 12 2 2 4-4"/>
+          </svg>
+          <span>Chat live with our support team</span>
+        </a>
+
+        <a href="#faq" class="option-item">
+          <svg class="verified-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z"/>
+            <path d="m9 12 2 2 4-4"/>
+          </svg>
+          <span>Browse our FAQ</span>
+        </a>
+      </div>
+
+      <form class="subscribe-form" action="#">
+        <div class="email-box">
+          <svg class="envelope-icon" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/>
+          </svg>
+          <input type="email" placeholder="Enter your email address..." required>
+        </div>
+        <button type="submit" class="btn-submit">Submit</button>
+      </form>
+    </div>
+  </section>
+            
+        </main>
+
+
+        <footer class="dwello-footer">
+    <div class="footer-container">
+      
+      <!-- Brand Column -->
+      <div class="footer-brand">
+        <a href="#" class="brand-logo">
+             <svg
+                        width="93"
+                        height="29"
+                        viewBox="0 0 93 29"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <g clip-path="url(#clip0_1_4)">
+                            <path
+                                d="M6.20173 27.5217V10.7217H14.1457C16.0017 10.7217 17.6337 11.0657 19.0417 11.7537C20.4497 12.4417 21.5457 13.4097 22.3297 14.6577C23.1297 15.9057 23.5297 17.3937 23.5297 19.1217C23.5297 20.8337 23.1297 22.3217 22.3297 23.5857C21.5457 24.8337 20.4497 25.8017 19.0417 26.4897C17.6337 27.1777 16.0017 27.5217 14.1457 27.5217H6.20173ZM10.9537 23.7297H13.9537C14.9137 23.7297 15.7457 23.5537 16.4497 23.2017C17.1697 22.8337 17.7297 22.3057 18.1297 21.6177C18.5297 20.9137 18.7297 20.0817 18.7297 19.1217C18.7297 18.1457 18.5297 17.3137 18.1297 16.6257C17.7297 15.9377 17.1697 15.4177 16.4497 15.0657C15.7457 14.6977 14.9137 14.5137 13.9537 14.5137H10.9537V23.7297ZM28.9099 27.5217L24.2779 14.5137H28.5979L32.2699 25.3857H30.2059L34.0219 14.5137H37.9099L41.5819 25.3857H39.5659L43.3579 14.5137H47.3659L42.7339 27.5217H38.3179L35.1979 18.5217H36.5419L33.3259 27.5217H28.9099ZM55.2236 27.7377C53.6876 27.7377 52.3436 27.4497 51.1916 26.8737C50.0556 26.2817 49.1676 25.4817 48.5276 24.4737C47.9036 23.4497 47.5916 22.2897 47.5916 20.9937C47.5916 19.6977 47.8956 18.5457 48.5036 17.5377C49.1276 16.5137 49.9836 15.7217 51.0716 15.1617C52.1596 14.5857 53.3836 14.2977 54.7436 14.2977C56.0236 14.2977 57.1916 14.5617 58.2476 15.0897C59.3036 15.6017 60.1436 16.3617 60.7676 17.3697C61.3916 18.3777 61.7036 19.6017 61.7036 21.0417C61.7036 21.2017 61.6956 21.3857 61.6796 21.5937C61.6636 21.8017 61.6476 21.9937 61.6316 22.1697H51.3356V19.7697H59.2076L57.4796 20.4417C57.4956 19.8497 57.3836 19.3377 57.1436 18.9057C56.9196 18.4737 56.5996 18.1377 56.1836 17.8977C55.7836 17.6577 55.3116 17.5377 54.7676 17.5377C54.2236 17.5377 53.7436 17.6577 53.3276 17.8977C52.9276 18.1377 52.6156 18.4817 52.3916 18.9297C52.1676 19.3617 52.0556 19.8737 52.0556 20.4657V21.1617C52.0556 21.8017 52.1836 22.3537 52.4396 22.8177C52.7116 23.2817 53.0956 23.6417 53.5916 23.8977C54.0876 24.1377 54.6796 24.2577 55.3676 24.2577C56.0076 24.2577 56.5516 24.1697 56.9996 23.9937C57.4636 23.8017 57.9196 23.5137 58.3676 23.1297L60.7676 25.6257C60.1436 26.3137 59.3756 26.8417 58.4636 27.2097C57.5516 27.5617 56.4716 27.7377 55.2236 27.7377ZM63.806 27.5217V9.71373H68.366V27.5217H63.806ZM71.3295 27.5217V9.71373H75.8895V27.5217H71.3295ZM85.3809 27.7377C83.9569 27.7377 82.6929 27.4497 81.5889 26.8737C80.4849 26.2977 79.6129 25.5057 78.9729 24.4977C78.3489 23.4737 78.0369 22.3057 78.0369 20.9937C78.0369 19.6817 78.3489 18.5217 78.9729 17.5137C79.6129 16.5057 80.4849 15.7217 81.5889 15.1617C82.6929 14.5857 83.9569 14.2977 85.3809 14.2977C86.8049 14.2977 88.0689 14.5857 89.1729 15.1617C90.2929 15.7217 91.1649 16.5057 91.7889 17.5137C92.4129 18.5217 92.7249 19.6817 92.7249 20.9937C92.7249 22.3057 92.4129 23.4737 91.7889 24.4977C91.1649 25.5057 90.2929 26.2977 89.1729 26.8737C88.0689 27.4497 86.8049 27.7377 85.3809 27.7377ZM85.3809 24.1137C85.9089 24.1137 86.3729 23.9937 86.7729 23.7537C87.1889 23.5137 87.5169 23.1617 87.7569 22.6977C87.9969 22.2177 88.1169 21.6497 88.1169 20.9937C88.1169 20.3377 87.9969 19.7857 87.7569 19.3377C87.5169 18.8737 87.1889 18.5217 86.7729 18.2817C86.3729 18.0417 85.9089 17.9217 85.3809 17.9217C84.8689 17.9217 84.4049 18.0417 83.9889 18.2817C83.5889 18.5217 83.2609 18.8737 83.0049 19.3377C82.7649 19.7857 82.6449 20.3377 82.6449 20.9937C82.6449 21.6497 82.7649 22.2177 83.0049 22.6977C83.2609 23.1617 83.5889 23.5137 83.9889 23.7537C84.4049 23.9937 84.8689 24.1137 85.3809 24.1137Z"
+                                fill="#2A1B12"
+                            />
+                            <path
+                                d="M1.89469 28.1235L1.89469 7.91301"
+                                stroke-width="3.78947"
+                                stroke="#2A1B12"
+                            />
+                            <path
+                                d="M0 6.01835H24"
+                                stroke-width="3.78947"
+                                stroke="#2A1B12"
+                            />
+                            <path
+                                d="M0 1.13031H14.6957"
+                                stroke-width="2.26087"
+                                stroke="#2A1B12"
+                            />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_1_4">
+                                <rect width="93" height="29" fill="white" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+        </a>
+        <p class="brand-tagline">
+          Bringing you closer to<br>
+          your dream home, one<br>
+          click at a time.
+        </p>
+      </div>
+
+      
+      <div class="footer-col">
+        <h4 class="footer-title">About</h4>
+        <ul class="footer-links">
+          <li><a href="#">Our Story</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Our Team</a></li>
+          <li><a href="#">Resources</a></li>
+        </ul>
+      </div>
+
+      
+      <div class="footer-col">
+        <h4 class="footer-title">Support</h4>
+        <ul class="footer-links">
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Terms of Service</a></li>
+        </ul>
+      </div>
+
+    
+      <div class="footer-col">
+        <h4 class="footer-title">Find Us</h4>
+        <ul class="footer-links">
+          <li><a href="#">Events</a></li>
+          <li><a href="#">Locations</a></li>
+          <li><a href="#">Newsletter</a></li>
+        </ul>
+      </div>
+
+      
+      <div class="footer-col">
+        <h4 class="footer-title">Our Social</h4>
+        <ul class="footer-links social-links">
+          <li>
+            <a href="#">
+              <svg class="social-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+              <span>Instagram</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <svg class="social-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="4" ry="4"></rect>
+                <path d="M15 8h-2a2 2 0 0 0-2 2v10"></path>
+                <line x1="9" y1="14" x2="15" y2="14"></line>
+              </svg>
+              <span>Facebook</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <svg class="social-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="4" ry="4"></rect>
+                <path d="M8 8l8 8"></path>
+                <path d="M16 8l-8 8"></path>
+              </svg>
+              <span>Twitter (x)</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </footer>
+
+      
+    </body>
+</html>
