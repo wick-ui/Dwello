@@ -128,7 +128,7 @@ p {
     transform: translateX(-50%);
 
     width: 1070px;
-    height: 160px;
+    /* height: 160px; */
     /* max-width: 900px; */
     /* min-height: 125px; */
 
@@ -1328,6 +1328,7 @@ header {
         margin: -25px auto 0;
         padding: 22px;
         border-radius: 14px;
+        /* height: 20vh; */
     }
 
     .location-form {
@@ -1732,8 +1733,12 @@ header {
     }
 
     .residences-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(1, 1fr);
         gap: 25px;
+    }
+
+    .residence-card {
+        grid-column: span 2;
     }
 
     .card-image {
